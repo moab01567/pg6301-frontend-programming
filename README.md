@@ -5,7 +5,7 @@ look at creating single-page applications with React backed by APIs implemented
 with React. The application will store data in MongoDB and be deployed on Heroku
 
 * [Lectures](#lectures)
-* [Reference material](#course-reference-material)
+* [Reference material](#reference-material)
 
 ## Understanding the course
 
@@ -42,7 +42,7 @@ In the course we will mainly be building two example applications:
 
 ### Lecture 1: Programming skills
 
-[![Lecture 1 Mentimeter](https://img.shields.io/badge/Lecture_1-mentimenter-yellow)](https://www.menti.com/al1uaz9942qr)
+[![Lecture 1 Mentimeter](https://img.shields.io/badge/Lecture_1-mentimenter-yellow)](https://www.menti.com/alqqnwny4ksk)
 
 [![Lecture 1 code](https://img.shields.io/badge/Lecture_1-lecture_code-blue)](https://github.com/kristiania-pg6301-2025/pg6301-frontend-programming/tree/lecture/01)
 [![Lecture 1 reference](https://img.shields.io/badge/Lecture_1-reference_code-blue)](https://github.com/kristiania-pg6301-2025/pg6301-frontend-programming/tree/reference/01)
