@@ -184,6 +184,8 @@ Create a branch for `feature/score-pair`, implement scoring pair in Yahtzee with
 
 Talk among yourselves and review what is a good approach going forward. You have implemented a few Yahtzee rules. Which ones would you do next? What changes are needed to the code? Which branches would you like to create?
 
-This is a good time to test out working in parallel. Distribute two tasks among yourselves, complete some Yahtzee rules and create a Pull request each. Review and merge each other's pull request.
+In GitHub, go to Issues and create a New issue for the tasks you are planning to execute.
+
+This is a good time to test out working in parallel. Assign one issue to each of the programmers in the pair, complete some Yahtzee rules and create a Pull request each. Review and merge each other's pull request.
 
 
