@@ -2,14 +2,13 @@
 
 ## Exercise 1
 
-Good programming is about getting frequent feedback from what you are working on, both from team members and from
-programming tools.
+<details>
 
-Test-driven development is a method where the tools help you take small, quick steps and validate the work along the
-way.
+Good programming is about getting frequent feedback from what you are working on, both from team members and from programming tools.
 
-Pair programming is a normal way of working where two programmers sit at the same machine, screen, keyboard, and mouse,
-and solve the task together.
+Test-driven development is a method where the tools help you take small, quick steps and validate the work along the way.
+
+Pair programming is a normal way of working where two programmers sit at the same machine, screen, keyboard, and mouse, and solve the task together.
 
 Both methods are useful for quality, progress, and—perhaps most importantly—for making programming more fun.
 
@@ -126,4 +125,65 @@ Commit and push your code to GitHub and let your partner take over.
 
 Continue creating new tests and pass control back and forth. If you do it smartly, your tests will probably continue
 with 5, 6, then skip to 9, 10, 11 and then skip to 20
+
+</details>
+
+## Exercise 2
+
+Programming tools allow you to collaborate safely and efficiently with other programmers. In this exercise, we will learn about GitHub Actions Workflows, Pull requests and Code reviews.
+
+Make sure that you have followed Exercise 1 first, as Exercise 2 builds on what you learned before.
+
+In this exercise, we will implement a program to calculate the scores of a [Yahtzee game](https://codingdojo.org/kata/Yahtzee/)
+
+### Setup
+
+1. Find a partner
+2. One of you should [create a new repository](https://github.com/new) on GitHub
+3. Add your partner under Settings > Collaborator
+4. Create a NPM project with Vitest as in [exercise 1](#exercise-1)
+
+### Implement the first rules of yahtzee
+
+1. The first programmer should implement scoring of "chance":
+    ```js
+    test("scoring Chance add all dice", () => {
+      expect(yatzeeScore("Chance", [1, 2, 3, 4, 5])).toBe(1+2+3+4+5);
+    });
+    ```
+2. Once you see the test run and fail, commit and push the code
+3. The other programmer should implement `yahtzeeScore` to make it pass
+4. The other programmer should write a new test, for example to describe `Ones`
+5. The first programmer should make `Ones` pass, then write another test for `Twos`
+6. The other programmer should make `Twos` pass. **But wait with writing the next test**
+
+### Implement GitHub Actions
+
+GitHub Actions makes GitHub run verification steps and perform other actions each time you push a new version of the code. This can save you lots of trouble down the line.
+
+1. On your repository in GitHub, choose Actions
+2. Here, you are presented with starting points for GitHub Actions. Type `node.js` into the search field and select the workflow with the same name among those that show up
+3. When you commit this workflow, the Action will start running on GitHub. Make sure you get it to run to green
+
+### Pull request
+
+You should now continue on the Yahtzee task, but first, create a new branch.
+
+1. In IntelliJ, click the branch name ("main") on the toolbar and select "New Branch..." from the menu. Give the branch the name `feature/score-threes`
+2. Implement the test and push
+3. In GitHub, go to "Pull requests" and create a new pull request based on `feature/score-threes`
+4. The other programmer than the one who created the Pull request should review the Pull request on GitHub and make a few comments
+5. Merge the pull requests
+6. In IntelliJ, once you pull the main branch, you should see the Pull request as a branch in the Git Window
+
+### Repeat to learn
+
+Create a branch for `feature/score-pair`, implement scoring pair in Yahtzee with two tests with different pairs. Then create a Pull request, do a code review and merge
+
+### Complete the task
+
+Talk among yourselves and review what is a good approach going forward. You have implemented a few Yahtzee rules. Which ones would you do next? What changes are needed to the code? Which branches would you like to create?
+
+This is a good time to test out working in parallel. Distribute two tasks among yourselves, complete some Yahtzee rules and create a Pull request each. Review and merge each other's pull request.
+
 

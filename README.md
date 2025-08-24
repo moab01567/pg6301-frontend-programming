@@ -65,7 +65,7 @@ These are some of the practices of Extreme Programming, the first Agile method t
 [![Lecture 2 exercise](https://img.shields.io/badge/Lecture_2-exercise-pink)](./exercises/EXERCISES.md#exercise-2)
 [![Lecture 2 issues](https://img.shields.io/badge/Lecture_2-issues-green)](https://github.com/kristiania-pg6301-2025/pg6301-frontend-programming/milestone/2)
 
-This lecture covers Maven, Github Actions and Github Issues
+This lecture covers Github Actions, Pull requests, GitHub issues and Code Reviews.
 
 ### Lecture 3: A tour of React, Express and Heroku
 
