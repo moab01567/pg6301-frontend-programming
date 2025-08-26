@@ -1,0 +1,20 @@
+{
+  "name": "pg6301-frontend-programming",
+  "version": "1.0.0",
+  "description": "Welcome to this course in Web Development and API Design. In this course, we will look at creating single-page applications with React backed by APIs implemented with React. The application will store data in MongoDB and be deployed on Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd exercises/exercise-2 && npm install && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moab01567/pg6301-frontend-programming.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moab01567/pg6301-frontend-programming/issues"
+  },
+  "homepage": "https://github.com/moab01567/pg6301-frontend-programming#readme"
+}
