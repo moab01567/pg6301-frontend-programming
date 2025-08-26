@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "prettier --check .",
+    "test": "prettier --write .",
     "test:watch": "vitest --watch"
   },
   "keywords": [],
