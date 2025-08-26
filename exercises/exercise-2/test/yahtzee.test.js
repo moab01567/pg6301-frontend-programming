@@ -15,3 +15,7 @@ function yatzeeOnes(numbers) {
 test("scoring Chance add all dice", () => {
   expect(yatzeeScore("Chance", [1, 2, 3, 4, 5])).toBe(1 + 2 + 3 + 4 + 5);
 });
+
+test("count all onse", () => {
+  expect(yatzeeOnes([1, 2, 3, 4, 5])).toBe(1);
+});
